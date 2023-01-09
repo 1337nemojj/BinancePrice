@@ -62,7 +62,7 @@ def strick_price(symbol):
         return str(f"{GREEN}{res}%{RESET}")
     else: return str(f"{RED}{res}%{RESET}")
 
-
+#test
 print(f"{YELLOW}[*]\t" + "PAIR\t\t" + "PRICE FROM\t" + " PRICE TO\t" + f"CHACNGES%\tSUMM%\tTIME{RESET}")
 def check_binance_prices():
     url = "https://api.binance.com/api/v3/ticker/price"
